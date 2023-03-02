@@ -1,3 +1,11 @@
+#ifndef MAIN_H
+#define MAIN_H
+
+#include <stdio.h>
+
+
+
+
 char *_strcat(char *dest, char *src);
 
 char *_strncat(char *dest, char *src, int n);
@@ -23,3 +31,5 @@ void print_buffer(char *b, int size);
 int _putchar(char c);
 
 char *leet(char *a);
+
+#endif
