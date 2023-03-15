@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * arstostr - convert the params passed to the program to string
+ * argstostr - convert the params pass to the prgrm to str
  * @ac: the argument count
  * @av: the argument vector
  * Return: ...
