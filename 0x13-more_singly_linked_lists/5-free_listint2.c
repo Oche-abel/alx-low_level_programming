@@ -4,11 +4,12 @@
 void free_listint2(listint_t **head)
 {
 	listint_t *current = *head;
+	listint_t *next;
 
 	while (current != NULL)
 	{
-	listint_t *next = current->next;
- 	free(current);
+	next = current->next;
+	free(current);
 	current = next;
 	}
 
